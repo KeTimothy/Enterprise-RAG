@@ -1,31 +1,22 @@
 # Enterprise RAG Assistant
 
-A production-style Retrieval-Augmented Generation (RAG) assistant built with FastAPI, PostgreSQL, pgvector, and local LLMs via Ollama.
+An end-to-end Retrieval-Augmented Generation (RAG) system built with:
 
-## Tech Stack
-
-- Python
 - FastAPI
 - PostgreSQL
 - pgvector
 - Docker
-- Ollama
-- Hugging Face
-- Git
+- SQLAlchemy
+- OpenAI-compatible LLMs (later)
+- LangChain (later)
 
-## Project Status
+## Current Progress
 
-🚧 Currently under development.
-
-Roadmap:
-
-- [x] Project initialization
-- [x] FastAPI setup
-- [ ] Docker environment
-- [ ] PostgreSQL + pgvector
-- [ ] PDF ingestion
-- [ ] Text chunking
-- [ ] Embedding generation
-- [ ] Vector search
-- [ ] RAG pipeline
-- [ ] Chat API
+- ✅ FastAPI
+- ✅ PostgreSQL
+- ✅ Docker
+- ✅ Initial database schema
+- ⏳ Document ingestion
+- ⏳ Embeddings
+- ⏳ Vector search
+- ⏳ Chat interface
