@@ -18,5 +18,5 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built with:
 - [x] Initial database schema
 - [x] Document ingestion
 - [x] Embeddings
-- [] Vector search
-- [] Chat interface
+- [ ] Vector search
+- [ ] Chat interface
