@@ -12,11 +12,11 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built with:
 
 ## Current Progress
 
-- ✅ FastAPI
-- ✅ PostgreSQL
-- ✅ Docker
-- ✅ Initial database schema
-- ⏳ Document ingestion
-- ⏳ Embeddings
-- ⏳ Vector search
-- ⏳ Chat interface
+- [x] FastAPI
+- [x] PostgreSQL
+- [x] Docker
+- [x] Initial database schema
+- [x] Document ingestion
+- [x] Embeddings
+- [] Vector search
+- [] Chat interface

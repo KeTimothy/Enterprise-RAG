@@ -7,3 +7,7 @@
 - Implemented POST /documents
 - Added response validation
 - Verified inserts through Swagger and DBeaver
+
+## 21-07-2026
+- Update database schema ($document_chunks$ have 'embedding' now)
+- Implemented text ingestion and chunking (with document ingestion pipeline next on the list)
