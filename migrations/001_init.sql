@@ -12,5 +12,6 @@ CREATE TABLE IF NOT EXISTS document_chunks (
         REFERENCES documents(id)
         ON DELETE CASCADE,
     chunk_index INTEGER NOT NULL,
-    content TEXT NOT NULL
+    content TEXT NOT NULL,
+    embedding VECTOR(384) NOT NULL
 );
