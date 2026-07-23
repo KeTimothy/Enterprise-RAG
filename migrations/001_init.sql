@@ -15,3 +15,6 @@ CREATE TABLE IF NOT EXISTS document_chunks (
     content TEXT NOT NULL,
     embedding VECTOR(384) NOT NULL
 );
+
+CREATE INDEX IF NOT EXISTS idx_document_chunks_embedding_id
+ON document_chunks(document_id);
