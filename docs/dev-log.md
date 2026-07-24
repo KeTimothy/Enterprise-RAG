@@ -11,3 +11,7 @@
 ## 21-07-2026
 - Update database schema ($document_chunks$ have 'embedding' now)
 - Implemented text ingestion and chunking (with document ingestion pipeline next on the list)
+
+## 24-07-2026
+- Implemented vector retrieval
+- Change EmbeddingService to have lazy loading, merge pathway for encoding (`embed_batch()` as the core) and add logging
